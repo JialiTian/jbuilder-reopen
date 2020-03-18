@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jbuilder_reopen/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jbuilder-reopen"
+  spec.name          = "jbuilder_reopen"
   spec.version       = JbuilderReopen::VERSION
   spec.authors       = ["Ben Zhang", "Jason Tian"]
   spec.email         = ["jason.tian@pixelforcesystems.com.au"]
   spec.summary       = "Now you can reopen blocks and add additional fields"
-  spec.homepage      = "https://www.github.com/jialitian/jbuilder-reopen"
+  spec.homepage      = "https://www.github.com/jialitian/jbuilder_reopen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split("\n")
