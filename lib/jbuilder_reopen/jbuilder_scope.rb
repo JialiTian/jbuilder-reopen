@@ -1,5 +1,5 @@
 module JbuilderScope
-  def _scope(_attributes=Jbuilder::Blank.new)
+  def _scope(_attributes=Jbuilder::BLANK)
     parent_attributes, parent_formatter = @attributes, @key_formatter
     @attributes = _attributes
     yield
